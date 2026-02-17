@@ -117,8 +117,6 @@ val output = session.run(mapOf("image" to inputTensor))
 | Top-1 accuracy | 43.9% |
 | Top-5 accuracy | 88.9% |
 | Training data | iNaturalist leaf images |
-| Training hardware | NVIDIA H100 80GB |
-| Precision | BF16 mixed precision |
 
 ### Training Details
 
