@@ -1,8 +1,17 @@
 # 🍃 Leaf Classifier Model
 
-> **⚠️ Hinweis / Disclaimer:** Dieses Modell befindet sich in einer Testphase. Die Ergebnisse sind nicht garantiert korrekt. Jede:r Nutzer:in ist selbst dafür verantwortlich, die Ergebnisse zu überprüfen. Keine Haftung für fehlerhafte Bestimmungen.
+> [!CAUTION]
+> **⚠️ Important — Please read before using this model**
 >
-> **This model is experimental and provided for testing purposes only. Classification results are not guaranteed to be correct. Every user is solely responsible for verifying the results. No liability is accepted for incorrect identifications.**
+> This model is **experimental** and provided for **testing and educational purposes only**.
+>
+> **The model cannot determine whether the image actually contains a leaf.** It was trained exclusively on leaf images and has no concept of "not a leaf". If you feed it any image — a face, a car, food, a blank wall — it will still output a tree species name, potentially with high confidence. This is a fundamental limitation of the architecture, not a bug.
+>
+> **Every user is solely responsible for verifying any classification result.** Do not rely on this model for accurate species identification. No liability is accepted for incorrect, misleading, or inappropriate classifications.
+>
+> ---
+>
+> **🇩🇪 Hinweis:** Dieses Modell befindet sich in einer Testphase. Es kann **nicht erkennen, ob sich überhaupt ein Blatt im Bild befindet** — es gibt bei jedem beliebigen Bild eine Baumart aus, auch bei Fotos von Gesichtern, Autos oder Essen. Jede:r Nutzer:in ist **selbst dafür verantwortlich**, die Ergebnisse zu überprüfen. Keine Haftung für fehlerhafte Bestimmungen.
 
 A CoreML and PyTorch model for classifying tree leaves and fruits. Covers **200+ tree species** commonly found in Vienna, Austria.
 
@@ -155,7 +164,13 @@ We are grateful to all iNaturalist contributors whose observations made this mod
 
 ## ⚖️ Disclaimer
 
-This model is provided **for testing and educational purposes only**. It is trained exclusively on leaf images and has no concept of "not a leaf" — it will classify any input image as some tree species regardless of content. Users are solely responsible for verifying any species identification. No liability is accepted for incorrect classifications.
+This model is provided **for testing and educational purposes only**.
+
+**The model has no ability to detect whether a leaf is present in the image.** It was trained exclusively on leaf photographs and will always output a tree species classification for any input — including photos of people, animals, objects, text, or blank images. A high confidence score does **not** mean the image actually contains a leaf; it only means the image resembles a particular class from the training data.
+
+**Every user is solely responsible for verifying any species identification.** The creators and contributors of this model accept **no liability whatsoever** for incorrect, misleading, or inappropriate classification results, regardless of the confidence score displayed.
+
+Do not use this model as the sole basis for any decision. Always verify results independently.
 
 ## License
 
