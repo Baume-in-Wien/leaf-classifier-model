@@ -1,6 +1,8 @@
 # Leaf Classifier Model
 
-CoreML model for classifying tree leaves. Covers 200+ tree species commonly found in Vienna.
+> **Hinweis: Dieses Modell befindet sich in einer Testphase. Die Ergebnisse sind nicht garantiert korrekt. Jede Nutzerin und jeder Nutzer ist selbst dafür verantwortlich, die Ergebnisse zu überprüfen. Keine Haftung für fehlerhafte Bestimmungen.**
+
+CoreML model for classifying tree leaves and fruits. Covers 200+ tree species commonly found in Vienna.
 
 ## Download
 
@@ -35,6 +37,10 @@ let visionModel = try VNCoreMLModel(for: model)
 | Species | 200+ |
 | Size | ~380 MB |
 | Training data | iNaturalist leaf images |
+
+## Disclaimer
+
+This model is provided **for testing and educational purposes only**. Classification results may be inaccurate. Users are solely responsible for verifying any species identification. No liability is accepted for incorrect classifications.
 
 ## Files
 
