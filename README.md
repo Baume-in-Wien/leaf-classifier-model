@@ -11,7 +11,7 @@
 >
 > ---
 >
-> **🇩🇪 Hinweis:** Dieses Modell befindet sich in einer Testphase. Es kann **nicht erkennen, ob sich überhaupt ein Blatt im Bild befindet** — es gibt bei jedem beliebigen Bild eine Baumart aus, auch bei Fotos von Gesichtern, Autos oder Essen. Jede:r Nutzer:in ist **selbst dafür verantwortlich**, die Ergebnisse zu überprüfen. Keine Haftung für fehlerhafte Bestimmungen.
+> **Hinweis:** Dieses Modell befindet sich in einer Testphase. Es kann **nicht erkennen, ob sich überhaupt ein Blatt im Bild befindet** — es gibt bei jedem beliebigen Bild eine Baumart aus, auch bei Fotos von Gesichtern, Autos oder Essen. Jede:r Nutzer:in ist **selbst dafür verantwortlich**, die Ergebnisse zu überprüfen. Keine Haftung für fehlerhafte Bestimmungen.
 
 A CoreML and PyTorch model for classifying tree leaves and fruits. Covers **200+ tree species** commonly found in Vienna, Austria.
 
