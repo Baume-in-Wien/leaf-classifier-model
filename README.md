@@ -139,6 +139,7 @@ val output = session.run(mapOf("image" to inputTensor))
 | `model_weights.pth` | ~757 MB | PyTorch weights (ConvNeXt Large) |
 | `class_names.json` | ~50 KB | Class index → species name mapping |
 | `IMAGE_CREDITS.md` | — | Full credits for all training images |
+| `THANKS.md` | — | Acknowledgments & all 50,612 photographers |
 
 ## 📸 Image Credits / Bildnachweis
 
@@ -160,7 +161,9 @@ The model was trained on **530,675 images** from **376 tree species**, photograp
 
 All images were used in compliance with their respective Creative Commons licenses for training this classification model. Each photographer is individually credited in `IMAGE_CREDITS.md`.
 
-We are grateful to all iNaturalist contributors whose observations made this model possible. 🙏
+### 🙏 Acknowledgments
+
+We are deeply grateful to all **50,612 iNaturalist photographers** whose observations made this model possible. Every single contributor is listed by name in **[`THANKS.md`](THANKS.md)** — thank you all! 🌳💚
 
 ## ⚖️ Disclaimer
 
